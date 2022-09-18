@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #FFF6BF;
+  background-image: radial-gradient(black 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
+}
+
+header{
+  background-color:white;
+  margin-left: 30%;
+  margin-right:30%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1{
+  color:#B270A2;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 3%;
+}
+
+footer{
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.note{
+  display: inline-block;
+  background: #fff;
+  border-radius: 9px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 15px;
+  width: 280px;
+  margin: 20px;
+
+}
+.note p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  background-color: #C21010;
+  color:white;
+  border-radius:100%;
+  width:18px;
+  height:18px;
+}
+
+.note button:hover{
+  background-color:white;
+  color:red;
+}
+
+form {
+  position: relative;
+  width: 450px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #367E18;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
